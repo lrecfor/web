@@ -1,0 +1,40 @@
+[06-Sep-2023 04:13:06 UTC] PHP Parse error:  syntax error, unexpected token "return" in C:\Users\dana\uni\4 курс\web\lab1\main.php on line 30
+[06-Sep-2023 04:13:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strpos() in C:\Users\dana\uni\4 курс\web\lab1\main.php:23
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab1\main.php(35): f2('\xD0\x98\xD0\xB2\xD0\xB0\xD0\xBD\xD0\xBE\xD0\xB2 \xD0\x98...')
+#1 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab1\main.php on line 23
+[06-Sep-2023 04:24:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_explode() in C:\Users\dana\uni\4 курс\web\lab1\main.php:23
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab1\main.php(30): f2('\xD0\x98\xD0\xB2\xD0\xB0\xD0\xBD\xD0\xBE\xD0\xB2 \xD0\x98...')
+#1 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab1\main.php on line 23
+[06-Sep-2023 04:27:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_explode() in C:\Users\dana\uni\4 курс\web\lab1\main.php:23
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab1\main.php(30): f2('\xD0\x98\xD0\xB2\xD0\xB0\xD0\xBD\xD0\xBE\xD0\xB2 \xD0\x98...')
+#1 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab1\main.php on line 23
+[06-Sep-2023 04:33:17 UTC] PHP Parse error:  syntax error, unexpected token "return" in C:\Users\dana\uni\4 курс\web\lab1\main.php on line 39
+[06-Sep-2023 04:33:26 UTC] PHP Parse error:  syntax error, unexpected token "return" in C:\Users\dana\uni\4 курс\web\lab1\main.php on line 39
+[06-Sep-2023 04:34:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: pos() expects exactly 1 argument, 2 given in C:\Users\dana\uni\4 курс\web\lab1\main.php:36
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab1\main.php(36): pos(Array, -87)
+#1 C:\Users\dana\uni\4 курс\web\lab1\main.php(46): f3()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab1\main.php on line 36
+[06-Sep-2023 04:35:24 UTC] PHP Fatal error:  Uncaught TypeError: array_search(): Argument #2 ($haystack) must be of type array, int given in C:\Users\dana\uni\4 курс\web\lab1\main.php:36
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab1\main.php(36): array_search(Array, -70)
+#1 C:\Users\dana\uni\4 курс\web\lab1\main.php(46): f3()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab1\main.php on line 36
+[06-Sep-2023 05:02:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function f4(), 0 passed in C:\Users\dana\uni\4 курс\web\lab1\main.php on line 71 and exactly 1 expected in C:\Users\dana\uni\4 курс\web\lab1\main.php:50
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab1\main.php(71): f4()
+#1 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab1\main.php on line 50
+[06-Sep-2023 08:20:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: book.book_name in C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php:3
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php(3): PDO->query('select book.id,...')
+#1 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php on line 3

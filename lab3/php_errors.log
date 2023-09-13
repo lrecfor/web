@@ -1,0 +1,374 @@
+[22-May-2023 19:21:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo' (tried: C:\php-8.2.6\ext\php_pdo (Не найден указанный модуль), C:\php-8.2.6\ext\php_php_pdo.dll (Не найден указанный модуль)) in Unknown on line 0
+[22-May-2023 19:21:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(2): PDO->__construct('sqlite://identi...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:21:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird' (tried: C:\php-8.2.6\ext\pdo_firebird (Не найден указанный модуль), C:\php-8.2.6\ext\php_pdo_firebird.dll (Не найден указанный модуль)) in Unknown on line 0
+[22-May-2023 19:21:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(2): PDO->__construct('sqlite://identi...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:22:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird.dll' (tried: C:\php-8.2.6\ext\pdo_firebird.dll (Не найден указанный модуль), C:\php-8.2.6\ext\php_pdo_firebird.dll.dll (Не найден указанный модуль)) in Unknown on line 0
+[22-May-2023 19:22:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(2): PDO->__construct('sqlite://identi...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:22:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_firebird.dll' (tried: C:\php-8.2.6\ext\php_pdo_firebird.dll (Не найден указанный модуль), C:\php-8.2.6\ext\php_php_pdo_firebird.dll.dll (Не найден указанный модуль)) in Unknown on line 0
+[22-May-2023 19:22:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(2): PDO->__construct('sqlite://identi...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:23:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_firebird' (tried: C:\php-8.2.6\ext\php_pdo_firebird (Не найден указанный модуль), C:\php-8.2.6\ext\php_php_pdo_firebird.dll (Не найден указанный модуль)) in Unknown on line 0
+[22-May-2023 19:23:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(2): PDO->__construct('sqlite://identi...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:23:43 UTC] PHP Warning:  Module "pdo_sqlite" is already loaded in Unknown on line 0
+[22-May-2023 19:23:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(2): PDO->__construct('sqlite://identi...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:23:58 UTC] PHP Warning:  Module "pdo_sqlite" is already loaded in Unknown on line 0
+[22-May-2023 19:23:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(2): PDO->__construct('sqlite://identi...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:24:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(2): PDO->__construct('sqlite://identi...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:25:41 UTC] PHP Parse error:  syntax error, unexpected token "private", expecting end of file in C:\Users\dana\uni\subd\lab5\main.php on line 3
+[22-May-2023 19:25:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(2): PDO->__construct('sqlite://identi...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:26:06 UTC] PHP Parse error:  syntax error, unexpected token "private", expecting end of file in C:\Users\dana\uni\subd\lab5\main.php on line 3
+[22-May-2023 19:32:11 UTC] PHP Parse error:  syntax error, unexpected token "private", expecting end of file in C:\Users\dana\uni\subd\lab5\main.php on line 3
+[22-May-2023 19:33:07 UTC] PHP Parse error:  syntax error, unexpected token "private", expecting end of file in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:34:16 UTC] PHP Parse error:  syntax error, unexpected variable "$db" in C:\Users\dana\uni\subd\lab5\main.php on line 3
+[22-May-2023 19:36:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(2): PDO->__construct('sqlite://identi...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:36:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(2): PDO->__construct('sqlite://identi...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:42:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(2): PDO->__construct('sqlite://identi...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:42:58 UTC] PHP Fatal error:  Uncaught Error: Class "SQLiteConnection" not found in C:\Users\dana\uni\subd\lab5\main.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 2
+[22-May-2023 19:45:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: kiwi in C:\Users\dana\uni\subd\lab5\main.php:6
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(6): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\subd\lab5\main.php(25): add('kiwi', 0)
+#2 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 6
+[22-May-2023 19:46:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: kiwi in C:\Users\dana\uni\subd\lab5\main.php:6
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(6): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\subd\lab5\main.php(25): add('kiwi', 0)
+#2 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 6
+[22-May-2023 19:46:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: kiwi in C:\Users\dana\uni\subd\lab5\main.php:6
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(6): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\subd\lab5\main.php(25): add('kiwi', 0)
+#2 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 6
+[22-May-2023 19:47:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: kiwi in C:\Users\dana\uni\subd\lab5\main.php:6
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(6): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\subd\lab5\main.php(25): add('kiwi', 0)
+#2 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 6
+[22-May-2023 19:48:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: kiwi in C:\Users\dana\uni\subd\lab5\main.php:21
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(21): PDO->query('insert into cat...')
+#1 C:\Users\dana\uni\subd\lab5\main.php(25): add(0, 'kiwi')
+#2 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 21
+[22-May-2023 19:49:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: kiwi in C:\Users\dana\uni\subd\lab5\main.php:21
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(21): PDO->query('insert into cat...')
+#1 C:\Users\dana\uni\subd\lab5\main.php(25): add('kiwi', 0)
+#2 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 21
+[22-May-2023 19:50:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: kiwi in C:\Users\dana\uni\subd\lab5\main.php:21
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(21): PDO->query('insert into cat...')
+#1 C:\Users\dana\uni\subd\lab5\main.php(25): add('kiwi', 0)
+#2 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 21
+[22-May-2023 19:51:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: kiwi in C:\Users\dana\uni\subd\lab5\main.php:21
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(21): PDO->query('insert into cat...')
+#1 C:\Users\dana\uni\subd\lab5\main.php(26): add('kiwi', 0)
+#2 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 21
+[22-May-2023 19:51:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: kiwi in C:\Users\dana\uni\subd\lab5\main.php:21
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(21): PDO->query('insert into cat...')
+#1 C:\Users\dana\uni\subd\lab5\main.php(26): add('kiwi', 0)
+#2 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 21
+[22-May-2023 19:56:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: apple in C:\Users\dana\uni\subd\lab5\main.php:14
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(14): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\subd\lab5\main.php(25): add('apple', 2)
+#2 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 14
+[22-May-2023 19:57:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 near "2": syntax error in C:\Users\dana\uni\subd\lab5\main.php:17
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(17): PDO->query('update catalog ...')
+#1 C:\Users\dana\uni\subd\lab5\main.php(25): add('apple', 2)
+#2 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 17
+[22-May-2023 19:57:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: apple in C:\Users\dana\uni\subd\lab5\main.php:17
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(17): PDO->query('update catalog ...')
+#1 C:\Users\dana\uni\subd\lab5\main.php(25): add('apple', 2)
+#2 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 17
+[08-Jun-2023 11:13:30 UTC] PHP Warning:  Undefined array key "Code_st" in C:\Users\dana\uni\subd\lab5\main.php on line 32
+[08-Jun-2023 11:13:30 UTC] PHP Warning:  Undefined array key "name" in C:\Users\dana\uni\subd\lab5\main.php on line 33
+[08-Jun-2023 11:13:30 UTC] PHP Warning:  Undefined array key "parent_id" in C:\Users\dana\uni\subd\lab5\main.php on line 34
+[08-Jun-2023 11:13:30 UTC] PHP Warning:  Undefined array key "lvl" in C:\Users\dana\uni\subd\lab5\main.php on line 35
+[08-Jun-2023 11:13:30 UTC] PHP Warning:  Undefined array key "path" in C:\Users\dana\uni\subd\lab5\main.php on line 36
+[08-Jun-2023 11:13:30 UTC] PHP Warning:  Undefined array key "Code_st" in C:\Users\dana\uni\subd\lab5\main.php on line 32
+[08-Jun-2023 11:13:30 UTC] PHP Warning:  Undefined array key "name" in C:\Users\dana\uni\subd\lab5\main.php on line 33
+[08-Jun-2023 11:13:30 UTC] PHP Warning:  Undefined array key "parent_id" in C:\Users\dana\uni\subd\lab5\main.php on line 34
+[08-Jun-2023 11:13:30 UTC] PHP Warning:  Undefined array key "lvl" in C:\Users\dana\uni\subd\lab5\main.php on line 35
+[08-Jun-2023 11:13:30 UTC] PHP Warning:  Undefined array key "path" in C:\Users\dana\uni\subd\lab5\main.php on line 36
+[08-Jun-2023 11:14:02 UTC] PHP Warning:  Undefined array key "Code_stud" in C:\Users\dana\uni\subd\lab5\main.php on line 32
+[08-Jun-2023 11:14:02 UTC] PHP Warning:  Undefined array key "name" in C:\Users\dana\uni\subd\lab5\main.php on line 33
+[08-Jun-2023 11:14:02 UTC] PHP Warning:  Undefined array key "parent_id" in C:\Users\dana\uni\subd\lab5\main.php on line 34
+[08-Jun-2023 11:14:02 UTC] PHP Warning:  Undefined array key "lvl" in C:\Users\dana\uni\subd\lab5\main.php on line 35
+[08-Jun-2023 11:14:02 UTC] PHP Warning:  Undefined array key "path" in C:\Users\dana\uni\subd\lab5\main.php on line 36
+[08-Jun-2023 11:14:02 UTC] PHP Warning:  Undefined array key "Code_stud" in C:\Users\dana\uni\subd\lab5\main.php on line 32
+[08-Jun-2023 11:14:02 UTC] PHP Warning:  Undefined array key "name" in C:\Users\dana\uni\subd\lab5\main.php on line 33
+[08-Jun-2023 11:14:02 UTC] PHP Warning:  Undefined array key "parent_id" in C:\Users\dana\uni\subd\lab5\main.php on line 34
+[08-Jun-2023 11:14:02 UTC] PHP Warning:  Undefined array key "lvl" in C:\Users\dana\uni\subd\lab5\main.php on line 35
+[08-Jun-2023 11:14:02 UTC] PHP Warning:  Undefined array key "path" in C:\Users\dana\uni\subd\lab5\main.php on line 36
+[08-Jun-2023 11:14:19 UTC] PHP Warning:  Undefined array key "Name" in C:\Users\dana\uni\subd\lab5\main.php on line 32
+[08-Jun-2023 11:14:19 UTC] PHP Warning:  Undefined array key "name" in C:\Users\dana\uni\subd\lab5\main.php on line 33
+[08-Jun-2023 11:14:19 UTC] PHP Warning:  Undefined array key "parent_id" in C:\Users\dana\uni\subd\lab5\main.php on line 34
+[08-Jun-2023 11:14:19 UTC] PHP Warning:  Undefined array key "lvl" in C:\Users\dana\uni\subd\lab5\main.php on line 35
+[08-Jun-2023 11:14:19 UTC] PHP Warning:  Undefined array key "path" in C:\Users\dana\uni\subd\lab5\main.php on line 36
+[08-Jun-2023 11:14:19 UTC] PHP Warning:  Undefined array key "Name" in C:\Users\dana\uni\subd\lab5\main.php on line 32
+[08-Jun-2023 11:14:19 UTC] PHP Warning:  Undefined array key "name" in C:\Users\dana\uni\subd\lab5\main.php on line 33
+[08-Jun-2023 11:14:19 UTC] PHP Warning:  Undefined array key "parent_id" in C:\Users\dana\uni\subd\lab5\main.php on line 34
+[08-Jun-2023 11:14:19 UTC] PHP Warning:  Undefined array key "lvl" in C:\Users\dana\uni\subd\lab5\main.php on line 35
+[08-Jun-2023 11:14:19 UTC] PHP Warning:  Undefined array key "path" in C:\Users\dana\uni\subd\lab5\main.php on line 36
+[08-Jun-2023 11:14:38 UTC] PHP Warning:  Undefined array key "S.Name" in C:\Users\dana\uni\subd\lab5\main.php on line 32
+[08-Jun-2023 11:14:38 UTC] PHP Warning:  Undefined array key "S.Name" in C:\Users\dana\uni\subd\lab5\main.php on line 32
+[08-Jun-2023 11:18:31 UTC] PHP Warning:  Undefined array key "Surname" in C:\Users\dana\uni\subd\lab5\main.php on line 33
+[08-Jun-2023 11:18:31 UTC] PHP Warning:  Undefined array key "Surname" in C:\Users\dana\uni\subd\lab5\main.php on line 33
+[08-Jun-2023 11:18:39 UTC] PHP Warning:  Undefined array key "Surname" in C:\Users\dana\uni\subd\lab5\main.php on line 33
+[08-Jun-2023 11:18:39 UTC] PHP Warning:  Undefined array key "Surname" in C:\Users\dana\uni\subd\lab5\main.php on line 33
+[08-Jun-2023 11:18:46 UTC] PHP Warning:  Undefined array key "S.Surname" in C:\Users\dana\uni\subd\lab5\main.php on line 33
+[08-Jun-2023 11:18:46 UTC] PHP Warning:  Undefined array key "S.Surname" in C:\Users\dana\uni\subd\lab5\main.php on line 33
+[08-Jun-2023 11:18:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 near "as": syntax error in C:\Users\dana\uni\subd\lab5\main.php:25
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(25): PDO->query('select * as stu...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 25
+[08-Jun-2023 11:19:54 UTC] PHP Warning:  Undefined array key "Code_Group" in C:\Users\dana\uni\subd\lab5\main.php on line 34
+[08-Jun-2023 11:19:54 UTC] PHP Warning:  Undefined array key "Code_Group" in C:\Users\dana\uni\subd\lab5\main.php on line 34
+[08-Jun-2023 11:20:13 UTC] PHP Warning:  Undefined array key "G.Code_Group" in C:\Users\dana\uni\subd\lab5\main.php on line 34
+[08-Jun-2023 11:20:13 UTC] PHP Warning:  Undefined array key "G.Code_Group" in C:\Users\dana\uni\subd\lab5\main.php on line 34
+[08-Jun-2023 11:20:23 UTC] PHP Warning:  Undefined array key "Code_Stud" in C:\Users\dana\uni\subd\lab5\main.php on line 34
+[08-Jun-2023 11:20:23 UTC] PHP Warning:  Undefined array key "Code_Stud" in C:\Users\dana\uni\subd\lab5\main.php on line 34
+[08-Jun-2023 11:35:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 near "from": syntax error in C:\Users\dana\uni\subd\lab5\main.php:25
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(25): PDO->query('select G.Code_g...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 25
+[08-Jun-2023 11:35:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 near "from": syntax error in C:\Users\dana\uni\subd\lab5\main.php:25
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(25): PDO->query('select G.Code_g...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 25
+[08-Jun-2023 11:35:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 near "from": syntax error in C:\Users\dana\uni\subd\lab5\main.php:25
+Stack trace:
+#0 C:\Users\dana\uni\subd\lab5\main.php(25): PDO->query('select G.Code_g...')
+#1 {main}
+  thrown in C:\Users\dana\uni\subd\lab5\main.php on line 25
+[06-Sep-2023 07:24:39 UTC] PHP Warning:  Undefined array key "Code_group" in C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php on line 11
+[06-Sep-2023 07:24:39 UTC] PHP Warning:  Undefined array key "Surname" in C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php on line 12
+[06-Sep-2023 07:24:39 UTC] PHP Warning:  Undefined array key "Code_subject" in C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php on line 13
+[06-Sep-2023 08:09:01 UTC] PHP Warning:  Undefined array key "book.name" in C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php on line 12
+[06-Sep-2023 08:09:01 UTC] PHP Warning:  Undefined array key "book.name" in C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php on line 12
+[06-Sep-2023 08:09:01 UTC] PHP Warning:  Undefined array key "book.name" in C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php on line 12
+[06-Sep-2023 08:09:01 UTC] PHP Warning:  Undefined array key "book.name" in C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php on line 12
+[06-Sep-2023 08:09:01 UTC] PHP Warning:  Undefined array key "book.name" in C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php on line 12
+[06-Sep-2023 08:09:01 UTC] PHP Warning:  Undefined array key "book.name" in C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php on line 12
+[06-Sep-2023 08:09:01 UTC] PHP Warning:  Undefined array key "book.name" in C:\Users\dana\uni\4 курс\web\lab2\2-4\main.php on line 12
+[06-Sep-2023 09:34:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:3
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(3): PDO->query('select * from c...')
+#1 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 3
+[06-Sep-2023 09:34:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:3
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(3): PDO->query('select * from c...')
+#1 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 3
+[10-Sep-2023 07:38:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:27
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(27): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(45): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 27
+[10-Sep-2023 07:40:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:28
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(28): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(46): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 28
+[10-Sep-2023 07:40:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:28
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(28): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(46): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 28
+[10-Sep-2023 07:40:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:28
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(28): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(46): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 28
+[10-Sep-2023 07:41:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:29
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(29): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(47): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 29
+[10-Sep-2023 07:41:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:27
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(27): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(45): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 27
+[10-Sep-2023 07:48:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:27
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(27): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(45): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 27
+[10-Sep-2023 07:48:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:27
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(27): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(45): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 27
+[10-Sep-2023 07:49:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: book in C:\Users\dana\uni\4 курс\web\lab3\main.php:27
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(27): PDO->query('select * from b...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(45): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 27
+[10-Sep-2023 07:49:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: main in C:\Users\dana\uni\4 курс\web\lab3\main.php:27
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(27): PDO->query('select * from m...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(45): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 27
+[10-Sep-2023 07:49:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: main in C:\Users\dana\uni\4 курс\web\lab3\main.php:27
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(27): PDO->query('select * from m...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(45): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 27
+[10-Sep-2023 07:52:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: main in C:\Users\dana\uni\4 курс\web\lab3\main.php:27
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(27): PDO->query('select * from m...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(45): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 27
+[10-Sep-2023 07:53:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:27
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(27): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(45): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 27
+[10-Sep-2023 07:53:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:27
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(27): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(45): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 27
+[10-Sep-2023 07:54:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: catalog in C:\Users\dana\uni\4 курс\web\lab3\main.php:27
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(27): PDO->query('select * from c...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(45): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 27
+[10-Sep-2023 07:55:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: book in C:\Users\dana\uni\4 курс\web\lab3\main.php:27
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(27): PDO->query('select * from b...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(45): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 27
+[10-Sep-2023 07:55:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: book in C:\Users\dana\uni\4 курс\web\lab3\main.php:29
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(29): PDO->query('select * from b...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(47): Catalog->display()
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 29
+[10-Sep-2023 07:55:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: book in C:\Users\dana\uni\4 курс\web\lab3\main.php:4
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(4): PDO->query('select * from b...')
+#1 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 4
+[10-Sep-2023 07:55:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: book in C:\Users\dana\uni\4 курс\web\lab3\main.php:4
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(4): PDO->query('select * from b...')
+#1 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 4
+[10-Sep-2023 08:01:50 UTC] PHP Warning:  Undefined global variable $db in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 10
+[10-Sep-2023 08:01:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\Users\dana\uni\4 курс\web\lab3\main.php:10
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(46): Catalog->add('clothes')
+#1 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 10
+[10-Sep-2023 08:06:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: clothes in C:\Users\dana\uni\4 курс\web\lab3\main.php:19
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(19): PDO->query('delete from cat...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(51): Catalog->delete('clothes')
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 19
+[10-Sep-2023 08:09:46 UTC] Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[10-Sep-2023 08:09:46 UTC] Xdebug: [Config] The setting 'xdebug.remote_host' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_host (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[10-Sep-2023 08:09:46 UTC] Xdebug: [Config] The setting 'xdebug.remote_mode' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_mode (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[10-Sep-2023 08:09:46 UTC] Xdebug: [Config] The setting 'xdebug.remote_port' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_port (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[10-Sep-2023 08:10:46 UTC] Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[10-Sep-2023 08:10:46 UTC] Xdebug: [Config] The setting 'xdebug.remote_host' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_host (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[10-Sep-2023 08:10:46 UTC] Xdebug: [Config] The setting 'xdebug.remote_mode' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_mode (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[10-Sep-2023 08:10:46 UTC] Xdebug: [Config] The setting 'xdebug.remote_port' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_port (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[10-Sep-2023 08:11:36 UTC] Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[10-Sep-2023 08:11:36 UTC] Xdebug: [Config] The setting 'xdebug.remote_host' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_host (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[10-Sep-2023 08:11:36 UTC] Xdebug: [Config] The setting 'xdebug.remote_mode' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_mode (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[10-Sep-2023 08:11:36 UTC] Xdebug: [Config] The setting 'xdebug.remote_port' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_port (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[10-Sep-2023 08:22:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 20 datatype mismatch in C:\Users\dana\uni\4 курс\web\lab3\main.php:33
+Stack trace:
+#0 C:\Users\dana\uni\4 курс\web\lab3\main.php(33): PDO->query('update catalog ...')
+#1 C:\Users\dana\uni\4 курс\web\lab3\main.php(62): Catalog->updateByName('food', 'Food')
+#2 {main}
+  thrown in C:\Users\dana\uni\4 курс\web\lab3\main.php on line 33
