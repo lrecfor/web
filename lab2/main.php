@@ -10,15 +10,13 @@ function f1($num)
 
 function f2()
 {
-    $array = array(1,1,1,2,2,2,2,3);
+    $array = array(1,1,3,2,2,2,2,3);
     $result = [];
-    foreach ($array as &$value)
+    foreach ($array as $key => $value)
     {
-        if (in_array($value, $result))
-            continue;
-        else $result[] = $value;
+        $result[] = $key;
+        $result[$key] = $value;
     }
-    unset($value);
 
     return $result;
 //2). У нас есть массив $array = array(1,1,1,2,2,2,2,3), необходимо вывести 1,2,3, то есть вывести без дублей при помощи

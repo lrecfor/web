@@ -59,8 +59,10 @@ function f4($number)
     }
     else if ($number % 5 == 0)
         return "red";
-    else
+    else if ($number % 8 == 0)
         return "green";
+    else
+        return "red";
 
     //return $color;
 //    4) Работа светофора запрограммирована таким образом: с начала каждого часа, в течении трех минут горит зеленый
@@ -71,5 +73,4 @@ function f4($number)
 printf("1) "); printf(f1());
 printf("\n2) "); printf(f2("Ivanov Ivan Petrovich"));
 printf("\n3) "); print_r(f3());
-printf("\n4) "); print_r(f4(8));
-?>
+printf("\n4) "); print_r(f4(4));
