@@ -1,63 +1,5 @@
 <?php
 
-class Catalog
-{
-    function add($arg1)
-    {
-        $db = new PDO('sqlite:identifier2.sqlite');
-        $res = $db->query("select * from catalog where name == '$arg1'");
-        if ($myrow = $res->fetch()) {
-            echo "";
-        }
-        else $db->query("insert into catalog (name) values('$arg1')");
-    }
-
-    function delete($arg1)
-    {
-        $db = new PDO('sqlite:identifier2.sqlite');
-        $res = $db->query("select * from catalog");
-        $del_id = "";
-        if ($myrow = $res->fetch()) {
-            $del_str = $db->query("select id from catalog where name == '$arg1'");
-            $del_id = $del_str->fetch()["id"];
-            $db->query("delete from catalog where name == '$arg1'");
-            $db->query("delete from catalog where parent_id == '$del_id'");
-        }
-        $db->query("delete from goods where goods.cat_id == $del_id");
-    }
-
-    function updateById($id, $new_name)
-    {
-        $db = new PDO('sqlite:identifier2.sqlite');
-        $db->query("update catalog set id = '$id', name = '$new_name' where id = '$id'");
-    }
-
-    function updateByName($old_name, $new_name)
-    {
-        $db = new PDO('sqlite:identifier2.sqlite');
-        $db->query("update catalog set id = id, name = '$new_name' where name = '$old_name'");
-    }
-
-    function display()
-    {
-        $db = new PDO('sqlite:identifier2.sqlite');
-        $r = $db->query("select * from catalog");
-
-        if($myrow = $r->fetch())
-        {
-            printf("id\t\tname\n");
-            do
-            {
-                printf("%s\t\t", $myrow["id"]);
-                printf("%s\t\t\t\n", $myrow["name"]);
-            }while($myrow = $r->fetch());
-        }
-        else {
-            echo "Sorry, no records were found.";
-        }
-    }
-}
-
 
 class Goods
 {
@@ -75,11 +17,8 @@ class Goods
     {
         $db = new PDO('sqlite:identifier2.sqlite');
         $res = $db->query("select * from goods");
-        $del_id = "";
         if ($myrow = $res->fetch()) {
-            $del_str = $db->query("select id from goods where name == '$arg1'");
-            $del_id = $del_str->fetch()["id"];
-            $db->query("delete from goods where name == '$arg1'");
+            $db->query("delete from goods where id == '$arg1'");
         }
     }
 
@@ -117,11 +56,82 @@ class Goods
     }
 }
 
+
+class Catalog
+{
+    function add($arg1, $arg2)
+    {
+        $db = new PDO('sqlite:identifier2.sqlite');
+        $res = $db->query("select * from catalog where name == '$arg1'");
+        if ($myrow = $res->fetch()) {
+            echo "";
+        }
+        else $db->query("insert into catalog (name, parent_id) values('$arg1', '$arg2')");
+    }
+
+    function delete($categoryId) {
+        $db = new PDO('sqlite:identifier2.sqlite');
+
+        // get goods list
+        $stmt = $db->query("select g.id from goods g
+                                  join catalog c on g.cat_id = c.id
+                                  where c.id = '$categoryId' or c.parent_id = '$categoryId'");
+        $productIds = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        // delete goods
+        foreach ($productIds as $productId) {
+            (new Goods)->delete($productId['id']);
+        }
+
+        // delete category from catalog
+        $db->query("delete from catalog where id = '$categoryId'");
+
+        $stmt = $db->query("select id from catalog where parent_id = '$categoryId'");
+        $childCategories = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        foreach ($childCategories as $childCategory) {
+            $this->delete($childCategory['id']);
+        }
+    }
+
+    function updateById($id, $new_name)
+    {
+        $db = new PDO('sqlite:identifier2.sqlite');
+        $db->query("update catalog set id = '$id', name = '$new_name' where id = '$id'");
+    }
+
+    function updateByName($old_name, $new_name)
+    {
+        $db = new PDO('sqlite:identifier2.sqlite');
+        $db->query("update catalog set id = id, name = '$new_name' where name = '$old_name'");
+    }
+
+    function display()
+    {
+        $db = new PDO('sqlite:identifier2.sqlite');
+        $r = $db->query("select * from catalog");
+
+        if($myrow = $r->fetch())
+        {
+            printf("id\t\tname\n");
+            do
+            {
+                printf("%s\t\t", $myrow["id"]);
+                printf("%s\t\t\t\n", $myrow["name"]);
+            }while($myrow = $r->fetch());
+        }
+        else {
+            echo "Sorry, no records were found.";
+        }
+    }
+}
+
+
 $cg = new Catalog();
 //print("before: \n");
 //$cg->display();
-//$cg->add("books");
-//$cg->delete("cat");
+//$cg->add("shoes", 2);
+$cg->delete(5);
 ////$cg->updateById(3, "Clothes");
 ////$cg->updateByName("food", "Food");
 //print("after: \n");
